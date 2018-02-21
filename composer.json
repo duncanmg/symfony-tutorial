@@ -4,6 +4,7 @@
     "require": {
         "php": "^7.0.8",
         "ext-iconv": "*",
+        "sensiolabs/security-checker": "^4.1",
         "symfony/console": "^3.4",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.4",
@@ -37,7 +38,8 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd",
+            "security-checker security:check": "script"
         },
         "post-install-cmd": [
             "@auto-scripts"
@@ -54,6 +56,6 @@
             "id": "",
             "allow-contrib": false
         },
-        "symfony.id": "01C6W26P5FBMMBRYR9MJ3HEC6N"
+        "symfony.id": "01C6W4CGM5JB7HFP4Y2SFRPF6B"
     }
 }
