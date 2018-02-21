@@ -9,10 +9,12 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.4",
         "symfony/lts": "^3",
+        "symfony/twig-bundle": "^3.4",
         "symfony/yaml": "^3.4"
     },
     "require-dev": {
-        "symfony/dotenv": "^3.4"
+        "symfony/dotenv": "^3.4",
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
@@ -53,9 +55,9 @@
     },
     "extra": {
         "symfony": {
-            "id": "",
+            "id": "01C6W61YM91YYX84WFNQPG158J",
             "allow-contrib": false
         },
-        "symfony.id": "01C6W4CGM5JB7HFP4Y2SFRPF6B"
+        "symfony.id": "01C6W5AR5V2K910BXDX16WWGFK"
     }
 }
