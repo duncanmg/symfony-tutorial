@@ -9,3 +9,29 @@ index:
 app_lucky_number:
     path: /lucky/number
     controller: App\Controller\LuckyController::number
+
+app_route_with_number:
+    path: /duncan/{id}
+    controller: App\Controller\DuncanController::number
+    requirements:
+        id: '\d+'
+
+app_route_with_string:
+    path: /duncan/{str}
+    controller: App\Controller\DuncanController::string
+    requirements:
+        str: '[a-zA-Z]+'
+
+app_route_with_404:
+    path: /duncan/four_o_four
+    controller: App\Controller\DuncanController::four_o_four
+
+flash:
+    path: /duncan/flash/msg
+    controller: App\Controller\DuncanController::flash
+
+json:
+    path: /duncan/json/msg
+    controller: App\Controller\DuncanController::jjson
+
+
